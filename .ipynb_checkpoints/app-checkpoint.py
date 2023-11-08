@@ -68,7 +68,7 @@ def main():
             data = file.read().strip().split(',')
             data = [int(x) for x in data]
     else:
-        uploaded_file = st.file_uploader("Загрузите файл с данными", type=["txt"])
+        uploaded_file = st.file_uploader("Загрузите файл", type=["txt"])
         if uploaded_file is not None:
             data = uploaded_file.read().decode("utf-8").strip().split(',')
             data = [int(x) for x in data]
