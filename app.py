@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.express as px
 import time
 from itertools import count
-from tabulate import tabulate  # Импортируйте библиотеку tabulate
+from tabulate import tabulate 
 from PIL import Image
 
 
